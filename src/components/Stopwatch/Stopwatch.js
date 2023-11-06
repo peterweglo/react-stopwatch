@@ -16,8 +16,8 @@ const Stopwatch = ({ time }) => {
   };
 
   return (
-    <div className={styles.timer}>
-      <span>{formatTime(time)}</span>
+    <div className={styles.stopwatch}>
+      <span className={styles.stopwatchtext}>{formatTime(time)}</span>
     </div>
   );
 };

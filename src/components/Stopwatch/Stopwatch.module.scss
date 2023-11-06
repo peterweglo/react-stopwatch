@@ -2,7 +2,12 @@
 
 .stopwatch {
   display: flex;
-  text-align: center;
+  text-align: left;
   justify-content: center;
   margin: 20px 0;
+}
+
+.stopwatchtext {
+  font-size: 42px;
+  width: 240px;
 }
